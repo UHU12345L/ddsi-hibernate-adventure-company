@@ -1,0 +1,10 @@
+nuevo pryecto, jave with Maven, java aplication
+nombre, location a escritorio, group id: Pv0
+pom: características del proyecto
+patrón del proyecto: modelo vista controlador
+	crear tres paquetes donde meter las clases: source package, new, java package (controlador, vista, modelo)
+
+añadir dependencias: código dependencias pagina 14 diapositivas (hibernate, java persistance, maria db). pegar en pom.xml, entre <properties> y <project> poner las <dependencias>
+
+clic derecho al nombre del proyecto y dar a view with dependencies (en carpeta dependencias deben aparecer 4) 
+

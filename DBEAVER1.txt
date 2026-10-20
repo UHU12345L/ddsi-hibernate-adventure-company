@@ -1,0 +1,2 @@
+conectar a base de datos como pone en diapositiva
+SET PASSWORD FOR 'DDSI_032'@'%' = PASSWORD('TU_CONTRASEÑA');

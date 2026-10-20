@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.mariadb.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mariadb://172.18.1.241:3306/DDSI_032</property>
+        <property name="hibernate.connection.username">DDSI_032</property>
+        <property name="hibernate.connection.password">TU_CONTRASEÑA</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <!-- Entidades -->
+        <mapping class="Modelo.Cliente"/>
+        <mapping class="Modelo.Guia"/>
+        <mapping class="Modelo.Aventura"/>
+        <mapping class="Modelo.Turno"/>
+        <mapping class="Modelo.Reserva"/>
+
+    </session-factory>
+</hibernate-configuration>
