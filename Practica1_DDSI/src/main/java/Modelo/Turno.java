@@ -31,7 +31,9 @@ import java.util.Set;
     @NamedQuery(name = "Turno.findAll", query = "SELECT t FROM Turno t"),
     @NamedQuery(name = "Turno.findByIdTurno", query = "SELECT t FROM Turno t WHERE t.idTurno = :idTurno"),
     @NamedQuery(name = "Turno.findByFechaHora", query = "SELECT t FROM Turno t WHERE t.fechaHora = :fechaHora"),
-    @NamedQuery(name = "Turno.findByCapacidad", query = "SELECT t FROM Turno t WHERE t.capacidad = :capacidad")})
+    @NamedQuery(name = "Turno.findByCapacidad", query = "SELECT t FROM Turno t WHERE t.capacidad = :capacidad"),
+    @NamedQuery(name = "Turno.findByIdGuia", query = "SELECT t FROM Turno t WHERE t.guia.idGuia = :idGuia")
+})
 public class Turno implements Serializable {
 
     private static final long serialVersionUID = 1L;
